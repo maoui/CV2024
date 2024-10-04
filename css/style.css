@@ -22,6 +22,7 @@ height: 20px;
 .name{
 	font-size: 70px;
 	font-style: italic;
+	margin-top: 50px;
 
     -webkit-text-stroke :2px #007bff;
     -webkit-text-fill-color:white;
@@ -40,6 +41,7 @@ height: 20px;
 
 .details{
 	font-size: 20px;
+	margin-top: 20px;
 
 }
 i{
@@ -50,14 +52,30 @@ i{
 	padding:15px ;
 }
 
-@media all and (max-width:320px){
-	.name{
-		font-size: 30px;
-	}
+@media all and (max-width:896px){
+					.name{
+						font-size: 50px;
+						margin-top: 30px;
 
-	.details{
-	font-size: 12px;
+					    }
+
+					.details{
+					font-size:30px;
+
+				       }
 
 }
+
+@media all and (max-width:320px){
+					.name{
+						font-size: 30px;
+						margin-top: 20px;
+
+					    }
+
+					.details{
+					font-size: 12px;
+
+				       }
 
 }
