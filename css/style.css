@@ -79,3 +79,12 @@ i{
 				       }
 
 }
+
+.tab{
+
+	width: 100%;
+	height: 80px;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
