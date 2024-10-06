@@ -1,5 +1,5 @@
 body{
-	background:pink;
+	background:silver;
 
 }
 .bg-primary{
@@ -77,6 +77,9 @@ i{
 					font-size: 12px;
 
 				       }
+				       .btn{
+				       	padding: 10px;
+				       }
 
 }
 
@@ -86,5 +89,14 @@ i{
 	height: 80px;
 	font-size: 25px;
 	font-weight: bold;
+
+	/*color: white;*/
+
+	line-height:80px;
+}
+
+.tab a{
+
+	text-decoration: none;
 	color: white;
 }
